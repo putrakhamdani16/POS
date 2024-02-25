@@ -13,7 +13,7 @@ class ProductsController extends Controller
         return view('Products.beauty-health');
     }
     public function food() {
-        return view('Products.food-baverage');
+        return view('Products.food-beverage');
     }
     public function homecare() {
         return view('Products.home-care');
